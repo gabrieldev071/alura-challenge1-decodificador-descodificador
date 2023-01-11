@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&family=Righteous&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Cabeçalho da página */
+
+.container-cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+/* Container de logos no cabeçalho da página */
+
+.logos-cabecalho {
+
+}
+
+
+body{
+    background: linear-gradient(45deg, #77C8C0, #4AD7B8, #f39c12);
+    animation: gradient 15s ease infinite;
+    background-size: 200% 100%;
+}
+
+@keyframes gradient {
+    0% {
+    background-position: 0% 100%;
+    } 
+
+    50% {
+    background-position: 100% 0%;
+    } 
+
+    100% {
+    background-position: 0% 100%;
+    } 
+}
+
+
+
+
+footer{
+    width: 100%;
+    background: #070c15;
+    height: 100px;
+
+}
