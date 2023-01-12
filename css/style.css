@@ -11,9 +11,9 @@
 
     /* Gradiente de fundo */
 body{
-    background: linear-gradient(260deg, #77C8C0, #2c7b8f, #0a4371);
-    animation: gradient 7s ease infinite;
-    background-size: 200% 10%;
+    background: linear-gradient(260deg, #77C8C0, #3f9bb3, #155488);
+    animation: gradient 5s ease infinite;
+    background-size: 290% 10%;
 }
 
 @keyframes gradient {
@@ -36,7 +36,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 1px;
+    border-bottom: 2px solid #073488;
+
 }
 
     /* Container de logos no cabeçalho da página */
@@ -45,7 +46,8 @@ body{
     display: flex;
     position: relative;
     right: 700px;
-    margin-top: 2rem;
+    margin: 2rem;
+    color: #cfcfcf;
 }
 
     /* Titulo principal da página */
@@ -79,7 +81,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     border: none;
-    
+
 }
 
 .texto-atencao{
@@ -193,4 +195,31 @@ span{
     font-size: 20px;
     color: #cfcfcf;
     gap: 8px;
+}
+
+ /* Footer da página */
+.rodape-main{
+    width: 100vw;
+    height: 7vw;
+    padding: 10px;
+    background: #073488;
+}
+
+
+.rodape-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+
+}
+
+h3{
+    font-family: 'Sarala', cursive;
+    font-weight: 600;
+    font-size: 17px;
+    color: #cfcfcf
 }
