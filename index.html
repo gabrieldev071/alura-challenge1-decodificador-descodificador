@@ -19,17 +19,24 @@
             <a href="https://www.alura.com.br/"><img src="/alura-challenge1-decodificador-descodificador/images/LogoAlura.svg" alt="Logo da empresa Alura"></a>  
           <!--   <a href="https://www.oracle.com/br/education/oracle-next-education/"><img src="/alura-challenge1-decodificador-descodificador/images/oracle.png" width="70px" height="px" alt="Logo da empresa Oracle" ></a> -->
         </div>
-        <h1>Encrypted Text</h1>
     </header>
 
 
-    <main class="container-principal"> <!-- conteúdo principal da página -->
+    <main class="container
+-principal"> <!-- conteúdo principal da página -->
 
         <section>
-            <textarea class="input-texto" cols="30" rows="10" placeholder="Digite seu texto.."></textarea>
+            <div  class="container-titulo-principal">
+                <h1>Encrypted Text</h1>
+            </div>
+        </section>
 
-            <div>
-                <h6 class="informacao">Apenas letras minúsculas e sem acento.</h6>
+        <section class="container-input-texto">
+            <textarea class="input-texto-area1" cols="85" rows="10" placeholder=" Digite seu texto..."></textarea>
+        </section>  
+        
+            <div class="texto-atencao">
+                <h6 class="informacao"> <img src="images/logo_exclamation-circle-fill.svg" alt="Icon de exclamação"> Apenas letras minúsculas e sem acento.</h6>
             </div>
 
             <div class="botoes">
@@ -37,23 +44,21 @@
 
                 <button class="desencriptar">Descriptografar texto</button>
             </div>
-        </section>
 
-        <section id="oninput">
-            <textarea cols="30" rows="10"></textarea>
-            <h2>Sua mensagem aparecera aqui!</h2>
-            <span>Digite um texto que você deseja criptografar ou descriptografar.</span>
+        <section class="container-oninput">
+            <textarea class="container-input-texto-area2" placeholder=" Sua mensagem aparece aqui!" cols="85" rows="10"></textarea>
+            <div class="texto-oniput">
+                <h2>Digite um texto que você deseja criptografar ou descriptografar.</h2>
+            </div>
         </section>
     </main>
-
-
     <!-- rodapé da página  -->
-    <footer>
-        <nav class="icons-rodape">
+<!--     <footer class="rodape">
+        <nav class="rodape-icons">
             <a href="https://www.linkedin.com/in/gabriel-albuquerque-souza-desenvolvedor/"><img src="images/linkedin.png" alt="icon do LinkedIn"></a>
             <a href="https://github.com/Gabrieldev071"><img src="images/github.png" alt="Icon do GitHub"></a>
-        </nav>
-    </footer>
+        </nav> 
+    </footer> -->
 
     <!-- exportação da interação da página -->
     <script src="/alura-challenge1-decodificador-descodificador/js/script.js">  </script>
