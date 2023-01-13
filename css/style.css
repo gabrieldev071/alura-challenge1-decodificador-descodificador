@@ -9,7 +9,7 @@
     text-decoration: none;
 }
 
-    /* Gradiente de fundo */
+/* Gradiente de fundo */
 body{
     background: linear-gradient(260deg, #77C8C0, #3f9bb3, #155488);
     animation: gradient 5s ease infinite;
@@ -30,7 +30,7 @@ body{
     } 
 }
 
-    /* Cabeçalho da página */
+/* Cabeçalho da página */
 
 .container-cabecalho {
     display: flex;
@@ -40,7 +40,7 @@ body{
     max-height: 6rem;
 }
 
-    /* Container de logos no cabeçalho da página */
+/* Container de logos no cabeçalho da página */
 
 .logos-cabecalho {
     display: block;
@@ -50,7 +50,7 @@ body{
     color: #cfcfcf;
 }
 
-    /* Conteúdo principal da página */
+/* Conteúdo principal da página */
 
 .container-principal{
     display: flex;
@@ -58,7 +58,7 @@ body{
     margin: 2px
     }
 
-    /* Titulo principal da página */
+/* Titulo principal da página */
 
 .container-titulo-principal{
     display: flex;
@@ -72,7 +72,7 @@ body{
     
 }
 
-    /* Container Input texto */
+/* Container Input texto */
 
 .container-input-texto1{
     display: flex;
@@ -109,7 +109,7 @@ textarea::placeholder {
     
 }
 
-    /* Botões da página */
+/* Botões da página */
 .botoes{
     display: flex;
     flex-direction: row;
@@ -156,7 +156,7 @@ textarea::placeholder {
     transition: 0.5s;
 }
 
-    /* Container Input texto2 */
+/* Container Input texto2 */
 
 .container-input-texto2{
     display: flex;
@@ -169,6 +169,7 @@ textarea::placeholder {
 .input-texto-area2{
     background-color: #073488;
     border: none;
+    color: #cfcfcf;
 }
 
 .texto-oniput{
@@ -194,7 +195,7 @@ span{
 .rodape-main{
     display: flex;
     width: 100vw;
-    height: 6vw;
+    height: 10vw;
     background: #073488;
 }
 
@@ -215,4 +216,21 @@ h3{
     font-weight: 600;
     font-size: 17px;
     color: #cfcfcf
+}
+
+/* Sintaxe do media */
+@media screen and (max-width: 662px){
+/* MAX WITH = TELA MENORES QUE ALGUMA RESoLUÇÃO */
+    
+ .container-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 0 auto;
+    height: 0 auto;
+ }
+ 
+.container-titulo-principal{
+    font-size: 30px;
+}
 }
