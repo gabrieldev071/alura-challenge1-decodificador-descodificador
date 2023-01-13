@@ -35,20 +35,28 @@ body{
 .container-cabecalho {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
     border-bottom: 2px solid #073488;
-
+    max-height: 6rem;
 }
 
     /* Container de logos no cabeçalho da página */
 
 .logos-cabecalho {
-    display: flex;
+    display: block;
     position: relative;
-    right: 700px;
+    left: 10rem;
     margin: 2rem;
     color: #cfcfcf;
 }
+
+    /* Conteúdo principal da página */
+
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    margin: 2px
+    }
 
     /* Titulo principal da página */
 
@@ -56,39 +64,27 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 10px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 61px;
     color: #073488;
-    padding: 1rem;
     
-}
-
-    /* Conteúdo principal da página */
-
-.container-principal{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    border-top: 0.4px solid #073488;
-    margin-bottom: 40px;
 }
 
     /* Container Input texto */
 
-.container-input-texto{
+.container-input-texto1{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     border: none;
-
 }
 
 .texto-atencao{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
     padding: 1rem;
     font-family: 'sarala', sans-serif;
     color: #073488;
@@ -99,7 +95,7 @@ body{
 
 textarea::placeholder {
     color: #cfcfcf;
-    padding: 5px;
+    padding: 4px 2px 1px 2px;
     font-family: 'sarala', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -110,6 +106,7 @@ textarea::placeholder {
     background-color: #073488;
     border: none;
     color: #cfcfcf;
+    
 }
 
     /* Botões da página */
@@ -118,20 +115,6 @@ textarea::placeholder {
     flex-direction: row;
     justify-content: center;
     gap: 10px;
-}
-
-.desencriptar{
-    background-color: #073488;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    border: none;
-    font-family: 'sarala', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: #cfcfcf;
-    gap: 8px;
-    width: 328px;
-    height: 67px;
 }
 
 .encriptar{
@@ -153,36 +136,46 @@ textarea::placeholder {
     transition: 1s;
 }
 
-.desencriptar:hover{
-    background-color: #2c7b8f;
-    transition: 1s;
+.desencriptar{
+    background-color: #073488;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #cfcfcf;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
 }
 
 
+.desencriptar:hover{
+    background-color: #2c7b8f;
+    transition: 0.5s;
+}
+
     /* Container Input texto2 */
 
-.container-oninput{
+.container-input-texto2{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 2rem;
+    padding-top: 2rem;
 }
 
-.container-input-texto-area2{
+.input-texto-area2{
     background-color: #073488;
-    animation: gradient 15s ease infinite;
-    background-size: 200% 100%;
     border: none;
-    color: #cfcfcf;
 }
 
 .texto-oniput{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
-    margin: 2px;
+    padding: 20px;
     font-family: 'sarala', sans-serif;;
     color: #073488;
     font-size: 14.8px;
@@ -199,9 +192,9 @@ span{
 
  /* Footer da página */
 .rodape-main{
+    display: flex;
     width: 100vw;
-    height: 7vw;
-    padding: 10px;
+    height: 6vw;
     background: #073488;
 }
 
