@@ -4,69 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encrypt Text</title>
+    <meta name="description" content="Ferramente para descriptografar e criptografar textos.">
     <link rel="shortcut icon" href="images/encryption.png" type="image/x-icon">
-    <link rel="stylesheet" href="/alura-challenge1-decodificador-descodificador/css/style.css">
-
+    <title>Encrypt Text</title>
+    <link rel="icon" href="./images/encryption.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/script.js"></script>
 
 </head>
 
 <body>
-
-    <!-- cabeçalho da página  -->
     <header class="container-cabecalho"> 
-        <div class="logos-cabecalho">
-            <a href="https://www.alura.com.br/"><img src="/alura-challenge1-decodificador-descodificador/images/LogoAlura.svg" alt="Logo da empresa Alura"></a>  
-            <a href="https://www.oracle.com/br/education/oracle-next-education/"><img src="/alura-challenge1-decodificador-descodificador/images/oracle.png" alt="Logo da empresa Oracle" ></a> 
-        </div>
+        <nav class="logos-cabecalho">
+            <ul class="links">
+                <li class="nav_links">
+                    <a class="nav_alura" target="_blank" href="https://www.alura.com.br/"><img src="/alura-challenge1-decodificador-descodificador/images/LogoAlura.svg" alt="Logo da empresa Alura"></class=>
+                    <!-- <a class="a" target="_blank" href="https://www.alura.com.br/"><strong>a</strong></a> -->  
+                </li>
+                <li class="nav_link">
+                    <a class="Link" target="_blank" href="https://www.oracle.com/br/education/oracle-next-education/"><img src="/alura-challenge1-decodificador-descodificador/images/oracle.png" alt="Logo da empresa Oracle" ></a> 
+                    <!-- <a class="Link" target="_blank" href="https://www.oracle.com/br/education/oracle-next-education/">Oracle</a>  -->
+                </li>    
+            </ul>   
+        </nav>
     </header>
-
-    <!-- conteúdo principal da página -->
     <main class="container-principal">
-
         <section>
-            <div  class="container-titulo-principal">
+            <div class="container-titulo-principal">
                 <h1>Encrypted Text</h1>
             </div>
         </section>
-
+        <br>
         <section class="container-input-texto1">
             <textarea class="input-texto-area1" cols="85" rows="10" placeholder=" Digite seu texto..."></textarea>
         </section>  
-        
+        <br>
+        <section>            
             <div class="texto-atencao">
-                <h6 class="informacao"> <img src="images/logo_exclamation-circle-fill.svg" alt="Icon de exclamação"> Apenas letras minúsculas e sem acento.</h6>
+                <i class="bi bi-exclamation-octagon-fill"></i>
+                <h6 class="informacao">Apenas letras minúsculas e sem acento.</h6>
             </div>
-
+        </section>
+        <br>
+        <section>
             <div class="botoes">
-                <button class="encriptar" onclick="botaoEncriptar()">
+                <button class="btn" onclick="botaoEncriptar()">
                     Criptografar texto 
                 </button>
-
-                <button class="desencriptar" onclick="botaoDesencriptar()">
+                <button class="btn" onclick="botaoDesencriptar()">
                     Descriptografar texto
                 </button>
             </div>
-
+        </section>   
+        <br><br>
         <section class="container-input-texto2">
             <textarea class="input-texto-area2" placeholder=" Sua mensagem aparece aqui!" cols="85" rows="10"></textarea>
-            <div class="texto-oniput">
-                <h2>Digite um texto que você deseja criptografar ou descriptografar.</h2>
-            </div>
+            <br><br>
         </section>
+        <h2 class="texto-oniput">Digite um texto que você deseja <spam>criptografar</spam> ou <spam>descriptografar.</spam></h2>
+        <br><br>
     </main>
-
-    <!-- rodapé da página  -->
     <footer class="rodape-main">
         <nav class="rodape-icons">
-            <h3>Desenvolvido por Gabriel Souza durante o programa "ONE - Oracle Next Education".</h3>
-            <a href="https://www.linkedin.com/in/gabriel-albuquerque-souza-desenvolvedor/"><img src="images/linkedin.png" width="50px" alt="icon do LinkedIn"></a>
-            <a href="https://github.com/Gabrieldev071"><img src="images/github.png" width="50px" alt="Icon do GitHub"></a>
+            <h3>Desenvolvido por <spam>Gabriel Souza</spam> durante o programa <spam>"ONE - Oracle Next Education".</spam></h3>
+            <a href="https://www.linkedin.com/in/gabriel-albuquerque-souza-desenvolvedor/" target="_blank" ><img src="images/linkedin.png" width="50px" alt="icon do LinkedIn"></a>
+            <a href="https://github.com/Gabrieldev071" target="_blank" ><img src="images/github.png" width="50px" alt="Icon do GitHub"></a>
         </nav> 
     </footer>
-
-    <!-- exportação da interação da página -->
-    <script src="/alura-challenge1-decodificador-descodificador/js/script.js"></script>
 </body>
 
 </html>

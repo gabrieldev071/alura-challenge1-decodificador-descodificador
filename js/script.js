@@ -5,12 +5,10 @@ const mensagem = document.querySelector(".input-texto-area2");
 function botaoEncriptar(){
     const textoEncriptado = encriptar(inputTexto1.value);
     mensagem.value = textoEncriptado
-    console.log("Teste do botão");
 }
 
 function encriptar(stringEncriptada){
     let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
-    console.table(matrizCodigo);
     stringEncriptada = stringEncriptada.toLowerCase();
 
     for(let i= 0; i < matrizCodigo.length; i++) {
@@ -29,7 +27,6 @@ function botaoDesencriptar(){
 
 function desencriptar(stringDesencriptada){
     let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
-    console.table(matrizCodigo);
     stringDesencriptada = stringDesencriptada.toLowerCase();
 
     for(let i= 0; i < matrizCodigo.length; i++) {
