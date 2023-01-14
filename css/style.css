@@ -161,6 +161,7 @@ textarea::placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #073488;
 }
 .rodape-icons {
     display: flex;
@@ -172,7 +173,7 @@ h3{
     font-family: 'Inter', cursive;
     font-weight: 400px;
     font-size: 20px;
-    color: #073488;
+    color: #cfcfcf
 }
 
 spam{
