@@ -1,6 +1,6 @@
 
 - [Projeto Codificador e Descodificador de textos](#Projeto-Encrypt-Text)
-  - [Video de apresentação do projeto](#Video-apresentação)
+  - [Video de apresentação do projeto](#Video-de-apresentação)
   - [Conteúdo](#Conteúdo)
     - [Deploy](#Deploy)
     - [Resumo](#Resumo)
@@ -93,5 +93,5 @@ Extra: um botão que copie o texto criptografado/descriptografado para a área d
 
 ### Contato:
 
-<a href="https://www.linkedin.com/in/gabriel-albuquerque-souza-desenvolvedor/">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>
+<a href="https://www.linkedin.com/in/gabriel-albuquerque-souza-desenvolvedor/" target="_blank" >![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>
 

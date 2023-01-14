@@ -4,7 +4,7 @@ const mensagem = document.querySelector(".input-texto-area2");
 
 function botaoEncriptar(){
     const textoEncriptado = encriptar(inputTexto1.value);
-    mensagem.value = textoEncriptado
+    mensagem.value = textoEncriptado;
 }
 
 function encriptar(stringEncriptada){
@@ -20,7 +20,7 @@ function encriptar(stringEncriptada){
 }
 
 function botaoDesencriptar(){
-    const textoDesencriptado = desencriptar(inputTexto1.value);
+    const textoDesencriptado = desencriptar(inputTexto1.value)
     mensagem.value = textoDesencriptado;
     
 }
