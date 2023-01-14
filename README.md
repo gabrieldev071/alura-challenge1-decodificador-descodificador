@@ -1,33 +1,33 @@
 
-- [Projeto Codificador e Descodificador de textos](#projeto-encrypt-text)
-  - [Video de apresentação do projeto:](#video-de-apresentação-do-projeto)
-  - [Conteúdo:](#conteúdo)
-    - [Deploy:](#deploy)
-    - [Resumo:](#resumo)
-    - [Descrição:](#descrição)
-    - [O que aprendeu:](#tópicos-abordados-durante-o-desafio)
-    - [Techs Utilizadas:](#techs-utilizadas)
-    - [Contato:](#contato)
+- [Projeto Codificador e Descodificador de textos](#Projeto-Encrypt-Text)
+  - [Video de apresentação do projeto](#Video-apresentação)
+  - [Conteúdo](#Conteúdo)
+    - [Deploy](#Deploy)
+    - [Resumo](#Resumo)
+    - [Descrição](#Descrição)
+    - [O que aprendeu](#Tópicos-abordados-durante-o-desafio)
+    - [Techs Utilizadas](#Techs-utilizadas)
+    - [Contato](#Contato)
 
-# Projeto-encrypt-text
+# Projeto Encrypt Text
 
-👋 Olá, rede! Esse é meu projeto Codificador e Descodificador de textos.
+Olá, rede! Esse é meu projeto Codificador e Descodificador de textos.
 
-## video-de-apresentação-do-projeto
+## Video de apresentação
 
 - [Video](./)
 
-## Conteúdo
+## Conteúdo:
 
-### Deploy
+### Deploy:
 
-[Projeto-Encrypt-Text](https://josecarlos-filho.github.io/Challenge-Criptografia/)
+[Encrypt Text](https=#)
 
-### Resumo
+### Resumo:
 
 O projeto foi um Challenge proposto pela Alura + Oracle através do Programa One - Oracle Next Education com o intuito de desafiar o desenvolvedor a colocar em prática os conceitos básicos do front-end adquiridos durante os cursos de HTML, CSS, JavaScript e lógica de programação oferecidos  plataforma de ensinos da Alura.
 
-### Descrição
+### Descrição:
 
 A aplicação consiste em encriptar e desencriptar palavras digitadas pelo usuário. 
 
@@ -47,7 +47,7 @@ Por exemplo: "gato" => "gaitober" gaitober" => "gato";
 Extra: um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.
 
 
-### Tópicos abordados durante o desafio
+### Tópicos abordados durante o desafio:
 
     #### JavaScript:
 
