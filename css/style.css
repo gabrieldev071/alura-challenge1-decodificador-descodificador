@@ -172,7 +172,7 @@ textarea::placeholder {
 h3{
     font-family: 'Inter', cursive;
     font-weight: 400px;
-    font-size: 20px;
+    font-size: 16px;
     color: #cfcfcf
 }
 
@@ -187,7 +187,12 @@ spam{
     }
 
     .links {
-        gap: 0.5rem;
+        display: flex;
+        gap: 0.2rem;
+    }
+    
+    .nav_alura{
+        width: 1000px;
     }
     .container-titulo-principal {
         font-size: 25px;
@@ -236,7 +241,7 @@ spam{
 
 
     .rodape-main {
-        height: 150px;
+        height: 155px;
         border-top: 2px solid #073488;
         display: flex;
         justify-content: center;
@@ -246,13 +251,14 @@ spam{
 
     h3 {
         display: block;
-        padding-left: 10px
+        padding-left: 8px;
+        font-size: 11px;
     }
     
     .rodape-icons {
         display: flex;
-        margin-right: 20px;
-        padding-left: 20px;
+        margin-right: 37px;
+        padding-left: 22px;
         gap: 1rem;
     }
     
