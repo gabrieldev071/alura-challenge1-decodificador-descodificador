@@ -36,3 +36,11 @@ function desencriptar(stringDesencriptada){
     }
     return stringDesencriptada;
 }
+
+function copiar(){
+    var textoCopy = document.querySelector(".input-texto-area2");
+    textoCopy.select();
+    textoCopy.setSelectionRange(0, 99999);
+    document.execCommand('copy');
+    alert("O texto copiado é: " + textoCopy.value);
+}

@@ -120,6 +120,20 @@ textarea::placeholder {
     gap: 27px;
 }
 
+.btn-copiar{
+    background-color: #073488;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    font-family: 'sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #cfcfcf;
+    width: 100px;
+    height: 67px;
+    transition: all 0.8s ease;
+    cursor: pointer;
+    border: 1.4px solid;
+}
 .btn{
     background-color: #073488;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
@@ -129,7 +143,7 @@ textarea::placeholder {
     font-size: 20px;
     color: #cfcfcf;
     gap: 8px;
-    width: 307px;
+    width: 248px;
     height: 67px;
     transition: all 0.8s ease;
     cursor: pointer;
@@ -142,6 +156,14 @@ textarea::placeholder {
     transform: scale(0.9);
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.4));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.4));
+}
+
+.btn-copiar:hover{
+    background: linear-gradient(45deg, #3f9bb3, #155488);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.4));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.4));       
 }
 
 /* Texto para criptografar ou descriptografar */
@@ -221,10 +243,30 @@ spam{
         font-size: 0.5rem;
         padding: 0.5rem;
     }
+
+    .botoes{
+        display: flex;
+        justify-content: center;
+        gap: 9px;
+    }
     .btn {
         width: 160px;
         height: 50px;
         font-size: 0.8rem;
+    }
+
+    .btn-copiar{
+        width: 70px;
+        height: 50px;
+        font-size: 0.8rem;
+    }
+
+    .btn-copiar:hover{
+        background: linear-gradient(45deg, #3f9bb3, #155488);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+        -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.4));
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.4));       
     }
 
     .btn:hover{
