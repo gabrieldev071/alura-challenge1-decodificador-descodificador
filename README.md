@@ -53,6 +53,7 @@ Extra: um botão que copie o texto criptografado/descriptografado para a área d
 
       - Utilizar expressões regulares para verificar acentos e letras maiúsculas.
       - Utilizar array de objetos.
+      - Pegar o evento de click de forma global no caso o container da aplicação.
       - Pegar o target do elemento html que está sendo clicado.
       - Utilizar arrow function.
       - Captura elementos html da page com querySelector.
