@@ -15,17 +15,17 @@ Olá, rede! Esse é meu projeto Codificador e Descodificador de textos.
 
 ## Video de apresentação
 
-- [Video](./)
+- [Video](./images/Apresentando%20Projeto.mp4)
 
 ## Conteúdo:
 
 ### Deploy:
 
-[Encrypt Text](https=#)
+[Encrypt Text](https://gabrieldev071.github.io/alura-challenge1-decodificador-descodificador/#)
 
 ### Resumo:
 
-O projeto foi um Challenge proposto pela Alura + Oracle através do Programa One - Oracle Next Education com o intuito de desafiar o desenvolvedor a colocar em prática os conceitos básicos do front-end adquiridos durante os cursos de HTML, CSS, JavaScript e lógica de programação oferecidos  plataforma de ensinos da Alura.
+O projeto foi um Challenge proposto pela Alura + Oracle através do Programa One - Oracle Next Education com o intuito de desafiar o desenvolvedor a colocar em prática os conceitos básicos do front-end adquiridos durante os cursos de HTML, CSS, JavaScript e lógica de programação oferecidos na plataforma de ensinos da Alura.
 
 ### Descrição:
 
