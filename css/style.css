@@ -11,9 +11,9 @@
 
 /* Gradiente de fundo */
 body{
-    background: linear-gradient(260deg, #77C8C0, #3f9bb3, #155488);
+    background: linear-gradient(45deg, #77C8C0, #3f9bb3, #155488);
     animation: gradient 5s ease infinite;
-    background-size: 290% 10%;
+    background-size: 290% 300%;
 }
 
 @keyframes gradient {
