@@ -31,7 +31,7 @@ function desencriptar(stringDesencriptada){
 
     for(let i= 0; i < matrizCodigo.length; i++) {
         if(stringDesencriptada.includes(matrizCodigo[i][1])){
-            stringDesencriptada = stringDesencriptada.replaceAll(matrizCodigo[i][1], matrizCodigo[i][1])
+            stringDesencriptada = stringDesencriptada.replaceAll(matrizCodigo[i][1], matrizCodigo[i][0])
         }
     }
     return stringDesencriptada;
