@@ -5,7 +5,6 @@ const mensagem = document.querySelector(".input-texto-area2");
 function botaoEncriptar(){
     const textoEncriptado = encriptar(inputTexto1.value);
     mensagem.value = textoEncriptado;
-    inputTexto1.value = ""
 }
 
 function encriptar(stringEncriptada){
