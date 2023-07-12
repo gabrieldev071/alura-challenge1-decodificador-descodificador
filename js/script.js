@@ -1,7 +1,6 @@
 const inputTexto1 = document.querySelector(".input-texto-area1");
 const mensagem = document.querySelector(".input-texto-area2");
 
-
 function botaoEncriptar(){
     const textoEncriptado = encriptar(inputTexto1.value);
     mensagem.value = textoEncriptado;
@@ -11,9 +10,9 @@ function botaoEncriptar(){
 function encriptar(stringEncriptada){
     let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
     stringEncriptada = stringEncriptada.toLowerCase();
-
+    
     for(let i= 0; i < matrizCodigo.length; i++) {
-        if(stringEncriptada.includes(matrizCodigo[i][0])) {
+        if(stringEncriptada.includes(matrizCodigo[i][0])) {       
         stringEncriptada = stringEncriptada.replaceAll(matrizCodigo[i][0], matrizCodigo[i][1])
         }
     }
